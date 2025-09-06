@@ -4,7 +4,7 @@ import CommunitySection from "@/components/CommunitySection";
 import Footer from "@/components/Footer";
 import BibleVerseSection from "@/components/VersiculosSection";
 import { RadioProvider } from "@/contexts/RadioContext";
-import BibleVerseSection from "@/components/VersiculosSection";
+
 
 const Index = () => {
   return (
