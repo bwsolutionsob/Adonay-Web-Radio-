@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import CommunitySection from "@/components/CommunitySection";
 import Footer from "@/components/Footer";
 import { RadioProvider } from "@/contexts/RadioContext";
+import BibleVerseSection from "@/components/VersiculosSection";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <main>
           <HeroSection />
           <CommunitySection />
+          <BibleVerseSection />
         </main>
         <Footer />
       </div>
