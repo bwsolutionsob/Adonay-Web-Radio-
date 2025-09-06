@@ -7,8 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Login from "./Login";         // login de usuário
-import AdminLogin from "./pages/AdminLogin"; // login de admin
-
+import AdminLogin from "./pages/AdminLogin"
+import AdminPanel from "./pages/AdminPanel";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -21,6 +21,8 @@ const App = () => (
           {/* Página inicial */}
           <Route path="/" element={<Index />} />
 
+          <Route path="/admin/panel" element={<AdminPanel />} />
+          
           {/* Login de usuário */}
           <Route path="/login" element={<Login />} />
 
@@ -36,3 +38,4 @@ const App = () => (
 );
 
 export default App;
+
